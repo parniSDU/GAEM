@@ -12,3 +12,5 @@ LazyData: true
 RoxygenNote: 7.1.2
 Depends: 
     R (>= 2.10)
+Imports: bnlearn, GA , pcalg, bcv, impute, lme4, rmatio, Metrics
+

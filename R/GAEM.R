@@ -12,6 +12,7 @@
 #' @return A list containing: An imputed data set (Best), a learnt GRN (BestDag),Maximum fitness value (MaxFit) and Vector of fitness values (FitVec).
 
 
+
 GAEM<-function(incom, pSize,  lamda,mode, sco,
                pcross,pmut,maxiter=50, error=0.0001 ){
 
