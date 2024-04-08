@@ -64,17 +64,15 @@ MiNAA is licensed under the [MIT](https://opensource.org/licenses/MIT) license. 
 
 ## Citation
 
-If you use MiNAA in your work, we kindly ask that you cite the following paper:
+If you use GAEM in your work, we kindly ask that you cite the following paper:
 
 ```bibtex
 @ARTICLE{Nelson2022,
-  title         = "MiNAA: Microbiome Network Alignment Algorithm",
-  author        = "Nelson, Reed and Aghdam, Rosa and
-                   Solis-Lemus, Claudia",
-  year          =  2022,
-  archivePrefix = "arXiv",
-  primaryClass  = "q-bio.PE",
-  eprint        = "xxx"
+  title         = "GAEM: Genetic Algorithm Based Expectation-Maximization For Inferring Gene Regulatory Networks From Incomplete Data",
+  author        = "Parisa Niloofar and  Rosa Aghdam and
+                   Changix Eslahchi",
+  year          =  2024,
+  archivePrefix = "arXiv"
 }
 ```
 
