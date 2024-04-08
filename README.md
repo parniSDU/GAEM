@@ -2,17 +2,27 @@
 # GAEM: Genetic Algorithm Based Expectation Maximization For Inferring Gene Regulatory Networks From Incomplete Data
 
 <img src="GAEM2.png" style="width:40%;" align=right>
-![ ](https://img.shields.io/github/languages/code-size/parniSDU/GAEM)
 
 ## Description
 
 GAEM employs an iterative approach combining Genetic Algorithm and Expectation Maximization methodologies to infer GRN structures from incomplete data. This iterative process updates imputed values based on learned GRNs until convergence.  Part A depicts the input (complete data set and GRN gold standard). In Part B, each data set is artificially perturbed under Missing at Random (MAR) and Not Missing at Random (NMAR) mechanisms, each with 5%, 15%, and 40% percentages of missingness values. Part C illustrates the process of imputing and learning the directed structure of the GRN from incomplete data sets using SVD, KNN, and GAEM algorithm. The outputs are shown in Part D. F-measure and RMSE are reported in Part E.
 
-## Requirements
+## Installation
+# Required packages
+```
+install.packages("devtools")
+install.packages("BiocManager")
+# Install GAEM
+devtools::install_github("parniSDU/GAEM/")
+```
 
-This program requires C++20 or higher, and g++.
 
-### Windows
+### Usage
+```
+library(GAEM)
+library()
+```
+
 
 ```bash
 mkdir obj
