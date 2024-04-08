@@ -7,7 +7,7 @@
 
 ## Description
 
-GAEM employs an iterative approach combining Genetic Algorithm and Expectation Maximization methodologies to infer GRN structures from incomplete data. This iterative process updates imputed values based on learned GRNs until convergence. 
+GAEM employs an iterative approach combining Genetic Algorithm and Expectation Maximization methodologies to infer GRN structures from incomplete data. This iterative process updates imputed values based on learned GRNs until convergence.  Part A depicts the input (complete data set and GRN gold standard). In Part B, each data set is artificially perturbed under Missing at Random (MAR) and Not Missing at Random (NMAR) mechanisms, each with 5%, 15%, and 40% percentages of missingness values. Part C illustrates the process of imputing and learning the directed structure of the GRN from incomplete data sets using SVD, KNN, and GAEM algorithm. The outputs are shown in Part D. F-measure and RMSE are reported in Part E.
 
 ## Requirements
 
