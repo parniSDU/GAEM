@@ -2,8 +2,7 @@
 # GAEM: Genetic Algorithm Based Expectation Maximization For Inferring Gene Regulatory Networks From Incomplete Data
 
 <img src="GAEM2.png" style="width:40%;" align=right>
-
-(https://img.shields.io/github/issues/parniSDU/GAEM)](https://github.com/parniSDU/GAEM/issues) ![ ](https://img.shields.io/github/languages/code-size/parniSDU/GAEM)
+![ ](https://img.shields.io/github/languages/code-size/parniSDU/GAEM)
 
 ## Description
 
