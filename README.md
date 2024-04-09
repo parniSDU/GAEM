@@ -13,9 +13,9 @@ install.packages("devtools")
 # Install GAEM
 devtools::install_github("parniSDU/GAEM")
 ```
-### Required Arguments (ordered)
-<small>
-1. Incomelte data set---> incom,<br>
+#### Required Arguments (ordered)
+
+<small>1. Incomelte data set---> incom,<small><br>
 2. Population size---> pSize,<br>
 3. Thresold for Conditional Mutual Information---> lambda,<br>
 4. Algorithm for directing the edges ---> mode= c("pc", "hc"),<br>
@@ -26,15 +26,14 @@ devtools::install_github("parniSDU/GAEM")
 9. Error tollerance---> error <br>
 - Notes:
   - The Incomelte data set is represented by matrix in txt format, where rows show the genes and columns show the samples.
-<small>
 
-### Outputs: A list containing:
-<sub>
+#### Outputs: A list containing:
+
 1. An imputed data set---> Best,<br>
 2. A learnt GRN---> BestDag,<br>
 3. Maximum fitness value---> MaxFit,<br>
 4. Vector of fitness values---> FitVec
-<sub>
+
 ## Example
 ```
 library(GAEM)
@@ -53,11 +52,11 @@ result<-GAEM(incom= incomplete, pSize=10,  lamda=0.05, mode="pc", sco="bge",
 cmp<-c(comp(gold_standard_graph, result$BestDag),RMSE=sqrt(mean(as.matrix((original-result$Best)^2))))
 ```
 
-## Contributions, Questions, Issues, and Feedback
+### Contributions, Questions, Issues, and Feedback
 
 Users interested in expanding functionalities in GAEM are welcome to do so.Issues reports are encouraged through Github's [issue tracker](https://github.com/parniSDU/GAEM/issues).
 
-## Citation
+### Citation
 
 If you use GAEM in your work, we kindly ask that you cite the following paper:
 
