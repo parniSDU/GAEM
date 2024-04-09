@@ -15,7 +15,7 @@ devtools::install_github("parniSDU/GAEM")
 ```
 #### Required Arguments (ordered)
 
-<small>1. Incomelte data set---> incom,<small><br>
+1. Incomelte data set---> incom,<br>
 2. Population size---> pSize,<br>
 3. Thresold for Conditional Mutual Information---> lambda,<br>
 4. Algorithm for directing the edges ---> mode= c("pc", "hc"),<br>
