@@ -36,8 +36,9 @@ devtools::install_github("parniSDU/GAEM")
 
 ## Example
 ```
-library(GAEM)
+Examples of GAEM's usage DREAM3 size 10 can be found in the examples/ directory.
 
+library(GAEM)
 #Read the original data, missing data and gold-standard 
 original<-read.table(file="examples/Dream10.txt", header=TRUE)
 incomplete<-read.table(file="examples/DREAM10_MAR_10%.txt", header=TRUE)
