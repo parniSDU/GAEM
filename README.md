@@ -53,7 +53,7 @@ cmp<-c(comp(gold_standard_graph, result$BestDag),RMSE=sqrt(mean(as.matrix((origi
 
 ## Contributions, Questions, Issues, and Feedback
 
-Users interested in expanding functionalities in MiNAA are welcome to do so. Issues reports are encouraged through Github's [issue tracker](https://github.com/solislemuslab/minaa/issues). See details on how to contribute and report issues in [CONTRIBUTING.md](https://github.com/solislemuslab/minaa/blob/master/CONTRIBUTING.md).
+Users interested in expanding functionalities in MiNAA are welcome to do so. Issues reports are encouraged through Github's (https://github.com/parniSDU/GAEM/issues). 
 
 ## Citation
 
