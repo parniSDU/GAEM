@@ -54,7 +54,7 @@ cmp<-c(comp(gold_standard_graph, result$BestDag),RMSE=sqrt(mean(as.matrix((origi
 ## Contributions, Questions, Issues, and Feedback
 
 Users interested in expanding functionalities in GAEM are welcome to do so.Issues reports are encouraged through Github's
-[issue tracker]([https://github.com/parniSDU/GAEM/issues])).
+[issue tracker]([https://github.com/parniSDU/GAEM/issues]).
 
 ## Citation
 
