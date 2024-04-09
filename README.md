@@ -13,7 +13,7 @@ install.packages("devtools")
 # Install GAEM
 devtools::install_github("parniSDU/GAEM")
 ```
-### Required Arguments (ordered)
+## Required Arguments (ordered)
 1. Incomelte data set---> incom,
 2. Population size---> pSize,
 3. Thresold for Conditional Mutual Information---> lambda,
