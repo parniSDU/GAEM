@@ -13,7 +13,7 @@ install.packages("devtools")
 # Install GAEM
 devtools::install_github("parniSDU/GAEM")
 ```
-# Required Arguments (ordered)
+### Required Arguments (ordered)
 <small>
 1. Incomelte data set---> incom,<br>
 2. Population size---> pSize,<br>
@@ -28,13 +28,13 @@ devtools::install_github("parniSDU/GAEM")
   - The Incomelte data set is represented by matrix in txt format, where rows show the genes and columns show the samples.
 <small>
 
-# Outputs: A list containing:
-
+### Outputs: A list containing:
+<sub>
 1. An imputed data set---> Best,<br>
 2. A learnt GRN---> BestDag,<br>
 3. Maximum fitness value---> MaxFit,<br>
 4. Vector of fitness values---> FitVec
-
+<sub>
 ## Example
 ```
 library(GAEM)
