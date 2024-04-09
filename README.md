@@ -5,7 +5,7 @@
 
 ## Description
 
-GAEM employs an iterative approach combining Genetic Algorithm and Expectation Maximization methodologies to infer GRN structures from incomplete data. This iterative process updates imputed values based on learned GRNs until convergence.  Part A depicts the input (complete data set and GRN gold standard). In Part B, each data set is artificially perturbed under Missing at Random (MAR) and Not Missing at Random (NMAR) mechanisms, each with 5%, 15%, and 40% percentages of missingness values. Part C illustrates the process of imputing and learning the directed structure of the GRN from incomplete data sets using SVD, KNN, and GAEM algorithm. The outputs are shown in Part D. F-measure and RMSE are reported in Part E.
+**GAEM** employs an iterative approach combining Genetic Algorithm and Expectation Maximization methodologies to infer GRN structures from incomplete data. This iterative process updates imputed values based on learned GRNs until convergence.  Part A depicts the input (complete data set and GRN gold standard). In Part B, each data set is artificially perturbed under Missing at Random (MAR) and Not Missing at Random (NMAR) mechanisms, each with 5%, 15%, and 40% percentages of missingness values. Part C illustrates the process of imputing and learning the directed structure of the GRN from incomplete data sets using SVD, KNN, and GAEM algorithm. The outputs are shown in Part D. F-measure and RMSE are reported in Part E.
 
 ## Installation
 ```
@@ -13,8 +13,8 @@ install.packages("devtools")
 # Install GAEM
 devtools::install_github("parniSDU/GAEM")
 ```
-## Required Arguments (ordered)
-1. Incomelte data set---> incom,
+# Required Arguments (ordered)
+<sub>1. Incomelte data set---> incom,<sub>
 2. Population size---> pSize,
 3. Thresold for Conditional Mutual Information---> lambda,
 4. Algorithm for directing the edges ---> mode= c("pc", "hc"),
@@ -26,14 +26,14 @@ devtools::install_github("parniSDU/GAEM")
 - Notes:
   - The Incomelte data set is represented by matrix in txt format, where rows show the genes and columns show the samples.
 
-### Outputs: A list containing:
+# Outputs: A list containing:
 
--An imputed data set---> Best,<br>
--A learnt GRN---> BestDag,<br>
--Maximum fitness value---> MaxFit,<br>
--Vector of fitness values---> FitVec
+1. An imputed data set---> Best,<br>
+2. A learnt GRN---> BestDag,<br>
+3. Maximum fitness value---> MaxFit,<br>
+4. Vector of fitness values---> FitVec
 
-### Example
+## Example
 ```
 library(GAEM)
 
