@@ -14,17 +14,19 @@ install.packages("devtools")
 devtools::install_github("parniSDU/GAEM")
 ```
 # Required Arguments (ordered)
-<sub>1. Incomelte data set---> incom,<sub>
-2. Population size---> pSize,
-3. Thresold for Conditional Mutual Information---> lambda,
-4. Algorithm for directing the edges ---> mode= c("pc", "hc"),
-5. Score measure for structure building---> sco= c("loglik-g","aic-g","bic-g","pred-loglik-g","bge"),
-6. Probability of crossover---> pcross,
-7. Probability of mutation---> pmut,
-8. Maximum iteration for convergence---> maxiter, 
-9. Error tollerance---> error
+<small>
+1. Incomelte data set---> incom,<br>
+2. Population size---> pSize,<br>
+3. Thresold for Conditional Mutual Information---> lambda,<br>
+4. Algorithm for directing the edges ---> mode= c("pc", "hc"),<br>
+5. Score measure for structure building---> sco= c("loglik-g","aic-g","bic-g","pred-loglik-g","bge"),<br>
+6. Probability of crossover---> pcross,<br>
+7. Probability of mutation---> pmut,<br>
+8. Maximum iteration for convergence---> maxiter, <br>
+9. Error tollerance---> error <br>
 - Notes:
   - The Incomelte data set is represented by matrix in txt format, where rows show the genes and columns show the samples.
+<small>
 
 # Outputs: A list containing:
 
