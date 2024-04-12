@@ -35,8 +35,9 @@ devtools::install_github("parniSDU/GAEM")
 4. Vector of fitness values---> FitVec
 
 ## Example
-```
 Examples of GAEM's usage DREAM3 size 10 can be found in the examples/ directory.
+```
+
 
 library(GAEM)
 #Read the original data, missing data and gold-standard 
