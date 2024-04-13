@@ -40,6 +40,7 @@ Examples of GAEM's usage DREAM3 size 10 can be found in the examples/ directory.
 
 
 library(GAEM)
+library(graph)
 #Read the original data, missing data and gold-standard 
 original<-read.table(file="examples/Dream10.txt", header=TRUE)
 incomplete<-read.table(file="examples/DREAM10_MAR_10%.txt", header=TRUE)
