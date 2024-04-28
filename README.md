@@ -5,7 +5,7 @@
 
 ## Description
 
-**GAEM** employs an iterative approach combining Genetic Algorithm and Expectation Maximization methodologies to infer GRN structures from incomplete data. This iterative process updates imputed values based on learned GRNs until convergence.  Part A depicts the input (complete data set and GRN gold standard). In Part B, each data set is artificially perturbed under Missing at Random (MAR) and Not Missing at Random (NMAR) mechanisms, each with 5%, 15%, and 40% percentages of missingness values. Part C illustrates the process of imputing and learning the directed structure of the GRN from incomplete data sets using SVD, KNN, and GAEM algorithm. The outputs are shown in Part D. F-measure and RMSE are reported in Part E.
+**GAEM** employs an iterative approach combining Genetic Algorithm and Expectation Maximization methodologies to infer GRN structures from incomplete data. This iterative process updates imputed values based on learned GRNs until convergence.  Part A presents the initial input, comprising the complete dataset. In Part B, datasets undergo artificial perturbation via Missing at Random (MAR) and Not Missing at Random (NMAR) mechanisms, each at 5%, 15%, and 40% missingness levels. Part C depicts the imputation process and learning of the directed structure of the Gene Regulatory Network (GRN) from incomplete datasets, employing the Singular Value Decomposition (SVD), k-Nearest Neighbors (KNN), and Genetic Algorithm Expectation-Maximization (GAEM) algorithms. Outputs are presented in Part D. Root Mean Square Error (RMSE) results are reported in Part E, with additional calculation of the F-measure if a Gold Standard GRN is available.
 
 ## Installation
 ```
@@ -25,7 +25,7 @@ devtools::install_github("parniSDU/GAEM")
 8. Maximum iteration for convergence---> maxiter, <br>
 9. Error tollerance---> error <br>
 - Notes:
-  - The Incomelte data set is represented by matrix in txt format, where rows show the genes and columns show the samples.
+  - The Incomelte data set is represented by matrix in txt format, where rows show the samples and columns show the genes.
 
 #### Outputs: A list containing:
 
@@ -67,7 +67,7 @@ If you use GAEM in your work, we kindly ask that you cite the following paper:
 @ARTICLE{Niloofar,
   title         = "GAEM: Genetic Algorithm Based Expectation-Maximization For Inferring Gene Regulatory Networks From Incomplete Data",
   author        = "Parisa Niloofar and  Rosa Aghdam and
-                   Changix Eslahchi",
+                   Changiz Eslahchi",
   year          =  2024,
   archivePrefix = "arXiv"
 }
