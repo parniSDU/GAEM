@@ -1,7 +1,7 @@
 
 # GAEM: Genetic Algorithm Based Expectation Maximization For Inferring Gene Regulatory Networks From Incomplete Data
 
-<img src="GAEM2.png" style="width:40%;" align=right>
+<img src="GAEM.png" style="width:40%;" align=right>
 
 ## Description
 
