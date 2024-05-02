@@ -52,7 +52,7 @@ result<-GAEM(incom= incomplete, pSize=10,  lamda=0.05, mode="pc", sco="bge",
              pcross=0.85,pmut=0.15,maxiter=50, error=0.00001 )
 
 #Compare the imputed data set with the original data set, and the learnt GRN with the true GRN
-cmp<-c(comp(gold_standard_graph, result$BestDag),RMSE=sqrt(mean(as.matrix((original-result$Best)^2))))
+cmp<-c(comp(gold_standard_graph, result$BestDag),comp_imp(original, result$Best))
 ```
 
 ### Contributions, Questions, Issues, and Feedback
