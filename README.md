@@ -61,15 +61,7 @@ Users interested in expanding functionalities in GAEM are welcome to do so.Issue
 
 ### Citation
 
-If you use GAEM in your work, we kindly ask that you cite the following paper:
+If you use GAEM in your work, we kindly ask that you cite our paper.
 
-```bibtex
-@ARTICLE{Niloofar,
-  title         = "GAEM: Genetic Algorithm Based Expectation-Maximization For Inferring Gene Regulatory Networks From Incomplete Data",
-  author        = "Parisa Niloofar and  Rosa Aghdam and
-                   Changiz Eslahchi",
-  year          =  2024,
-  archivePrefix = "arXiv"
-}
 ```
 
